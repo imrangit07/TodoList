@@ -32,20 +32,27 @@ h1 {
     margin-bottom: 10px;
 }
 
-#input-display {
+#input-display{
     width:100%;
     padding: 8px;
     margin-top: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.date,.time{
+    width: 50%;
 }
 
 #input-date,#input-time {
-    width: 50%;
+    width: 100%;
     padding: 8px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    margin-top: 10px;
+   
 }
 
 
